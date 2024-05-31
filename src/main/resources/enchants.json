@@ -569,6 +569,60 @@
       "nbtName": "vicious",
       "goodLevel": 0,
       "maxLevel": 5
+    },
+    "reflection": {
+      "loreName": "Reflection",
+      "nbtName": "reflection",
+      "goodLevel": 5,
+      "maxLevel": 5
+    },
+    "transylvanian": {
+      "loreName": "Transylvanian",
+      "nbtName": "transylvanian",
+      "goodLevel": 5,
+      "maxLevel": 5
+    },
+    "pesterminator": {
+      "loreName": "Pesterminator",
+      "nbtName": "pesterminator",
+      "goodLevel": 5,
+      "maxLevel": 5
+    },
+    "ice cold": {
+      "loreName": "Ice Cold",
+      "nbtName": "ice cold",
+      "goodLevel": 0,
+      "maxLevel": 5
+    },
+    "dedication": {
+      "loreName": "Dedication",
+      "nbtName": "dedication",
+      "goodLevel": 0,
+      "maxLevel": 4
+    },
+    "sunder": {
+      "loreName": "Sunder",
+      "nbtName": "sunder",
+      "goodLevel": 5,
+      "maxLevel": 6
+    },
+    "green thumb": {
+      "loreName": "Green Thumb",
+      "nbtName": "green thumb",
+      "goodLevel": 5,
+      "maxLevel": 5
+    },
+    "quantum": {
+      "loreName": "Quantum",
+      "nbtName": "quantum",
+      "goodLevel": 5,
+      "maxLevel": 5
+    },
+    "prosperity": {
+      "loreName": "Prosperity",
+      "nbtName": "prosperity",
+      "goodLevel": 5,
+      "maxLevel": 5
     }
   },
   "ULTIMATE": {
@@ -725,6 +779,15 @@
       "goodLevel": 0,
       "maxLevel": 10,
       "statLabel": "championCombatXp",
+      "stackLevel": [0, 50000, 100000, 250000, 500000, 1000000, 1500000, 2000000, 2500000, 3000000]
+    },
+    "toxophilite": {
+      "loreName": "Toxophilite",
+      "nbtName": "toxophilite",
+      "nbtNum": "toxophilite_combat_xp",
+      "goodLevel": 0,
+      "maxLevel": 10,
+      "statLabel": "toxophiliteCombatXp",
       "stackLevel": [0, 50000, 100000, 250000, 500000, 1000000, 1500000, 2000000, 2500000, 3000000]
     }
   }
