@@ -10,7 +10,8 @@ public class ContainerData {
         BACKPACK,
         NEW_YEARS_CAKE,
         PERSONAL_COMPACTOR,
-        BUILDERS_WAND;
+        BUILDERS_WAND,
+        BUILDERS_RULER;
     }
 
     /**
@@ -60,6 +61,10 @@ public class ContainerData {
 
     public boolean isBuildersWand() {
         return type == ContainerType.BUILDERS_WAND;
+    }
+
+    public boolean isBuildersRuler() {
+        return type == ContainerType.BUILDERS_RULER;
     }
 
     /* Functions that check the size of the container */

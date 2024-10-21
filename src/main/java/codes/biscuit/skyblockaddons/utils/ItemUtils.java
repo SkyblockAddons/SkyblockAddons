@@ -275,6 +275,12 @@ public class ItemUtils {
         return containerData != null && containerData.isBuildersWand();
     }
 
+    public static boolean isBuildersRuler(ItemStack stack) {
+        NBTTagCompound extraAttributes = getExtraAttributes(stack);
+        ContainerData containerData = containers.get(getSkyblockItemID(extraAttributes));
+        return containerData != null && containerData.isBuildersRuler();
+    }
+
     /**
      * Gets the color of the backpack in the given {@code ItemStack}
      *

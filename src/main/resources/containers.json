@@ -67,6 +67,15 @@
       9
     ]
   },
+  "BUILDERS_RULER": {
+    "type": "BUILDERS_RULER",
+    "size": 54,
+    "compressedItemStacksTag": "builder's_ruler_data",
+    "dimensions": [
+      6,
+      9
+    ]
+  },
   "PERSONAL_COMPACTOR_4000": {
     "type": "PERSONAL_COMPACTOR",
     "size": 1,
